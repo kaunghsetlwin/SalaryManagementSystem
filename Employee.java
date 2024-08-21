@@ -5,6 +5,7 @@ public class Employee {
 	String name;
 	int employeeId;
 	double basicSalary;
+	double calculateSalary=0;
 	
 	public Employee(String name,int empId,double basicSalary){
 		this.name = name;
@@ -13,7 +14,7 @@ public class Employee {
 	}
 	
 	public double calculateSalary(){
-		return 0.0;
+		return calculateSalary;
 	}
 	
 	public void dispalyDetails(){
